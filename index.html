@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        .main_container{height:100%; width: 100%;display: flex;flex-direction: column;}
+        .container1{
+            background-color: rgb(60,92,124);
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .links_bar{margin: 40px 60px;display: flex;justify-content: space-between;justify-self: start;}
+        a{
+            color: white; 
+            margin: 0px 20px;
+        }
+        .center_div{
+            padding: 180px;
+            display:flex;justify-self:center;align-self: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{padding: 20px 40px;color:white;background-color:rgb(36,147,227);border-radius: 6px;border-style: none;margin: 15px;}
+        button:hover{cursor: pointer;background-color:#3a9ee6;}
+        .center_div h1{color: white;font-size: 70px;margin: 10px;}
+        .center_div p{color: white;font-size: 40px;font-style: normal;margin: 15px;}
+
+        .container2{
+            background-color: rgb(240, 245, 247);
+            width: 100%;
+            height: 150vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .txt{margin: 100px;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+        .imgs{margin: 10px;padding: 10px;display: flex;align-items:center;width: 100%;height: 100vh;flex-direction: column;flex-wrap: wrap;}
+        .imgs div{width: 80%;height: 50%;display: flex;justify-content: center;align-items: center;}
+
+        .container3{
+            background-color: rgb(230, 231, 232);
+            width: 100%;
+            height: 150vh;
+        }
+        .txt2{margin: 100px;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+        .txt3{display: flex;justify-content: space-around;align-items: center;margin: 100px;}
+        .txt4{margin: 150px;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+        input{padding: 20px 100px 20px 5px;border-radius: 6px;border-style: none;}
+
+        .container4{
+            background-color: rgb(71, 74, 77);
+            width: 100%;
+            height: 25vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="container1">
+            <div class="links_bar">
+                <a href="#"><h3>Website Logo</h3></a>
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Producta</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="center_div" >
+                <h1>Responsive Flexbox Template</h1>
+                <p>A freebie by Tutorialzine.</p>
+                <button>Download IT Here</button>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="txt">
+                <h2 style="margin: 30px; color: #56616a; font-size:35px;">Some Of Our Work</h2>
+                <p style="text-align: center; color: #56616a; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi <br> vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+            </div>
+            <div class="imgs">
+                <div>
+                    <img src="pexels-bri-schneiter-346529.jpg" style="width: 30%;height:75%;margin: 10px;">
+                    <img src="pexels-pixabay-268533.jpg" style="width: 70%;height:75%;">
+                </div>
+                <div>
+                    <img src="pexels-pixabay-459225.jpg" style="width: 70%;height:75%;margin: 10px;">
+                    <img src="pexels-zehra-8388535.jpg" style="width: 30%;height:75%;">
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="txt2">
+                <h2 style="margin: 30px; color: #56616a; font-size:35px;">Some Of Our Work</h2>
+                <p style="text-align: center; color: #56616a; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi <br> vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+            </div>
+            <div class="txt3">
+                <div>
+                    <h3 style="margin: 30px; color: #56616a; font-size:35px;text-align: center;">Photography</h3>
+                    <p style="text-align: center; color: #56616a; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur  <br>adipiscing elit. Nullam id felis et ipsum <br> bibendum ultrices vitae pulvinar velit.</p>
+                </div>
+                <div>
+                    <h3 style="margin: 30px; color: #56616a; font-size:35px;text-align: center;">Web Development</h3>
+                    <p style="text-align: center; color: #56616a; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur  <br>adipiscing elit. Nullam id felis et ipsum <br> bibendum ultrices vitae pulvinar velit.</p>
+                </div>
+                <div>
+                    <h3 style="margin: 30px; color: #56616a; font-size:35px;text-align: center;">Content Editing</h3>
+                    <p style="text-align: center; color: #56616a; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur  <br>adipiscing elit. Nullam id felis et ipsum <br> bibendum ultrices vitae pulvinar velit.</p>
+                </div>
+            </div>
+            <div class="txt4">
+                <div>
+                    <h2 style="margin: 30px; color: #56616a; font-size:35px;text-align: center;">Join Our Newsletterg</h2>
+                    <p style="text-align: center; color: #56616a; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi <br> vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+                </div>
+                <div style="margin: 75px;">
+                    <input type="text" placeholder="Email">
+                    <button>SUBSCRIBE NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <p style="color: #939ba2;">MADE BY TUTORIALZINE. IMAGES COURTESY TO UNSPLASH. <br>
+            NO ATTRIBUTION REQUIRED. YOU CAN REMOVE THIS FOOTER.</p>
+        </div>
+    </div>
+</body>
+</html>
